@@ -1,0 +1,22 @@
+{
+	"name": "server",
+	"description": "COMPS381F Project",
+	"author": "LI Yuyao>",
+	"version": "0.0.1",
+	"dependencies": {
+		"assert": "1.5.1",
+		"body-parser": "*",
+		"cookie-session": "*",
+		"ejs": "*",
+		"express": "*",
+		"mongodb": "^6.1.0",
+		"private": true
+	},
+	"engines": {
+		"node": ">=10.19.0",
+		"npm": ">=6.14.4"
+	},
+	"scripts": {
+		"start": "node server.js"
+	}
+}
