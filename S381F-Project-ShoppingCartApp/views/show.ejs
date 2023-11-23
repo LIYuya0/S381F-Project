@@ -1,0 +1,11 @@
+<html>
+    <body>
+        <H2>(<%= item %>) is found. There are (<%= nitems %>) item(s). </H2>
+        <ul>
+            <% for (var i of items) { %>
+            <li>Shonpping Cart ID: <a href="/info?sc_id=<%= i.sc_id %>"><%= i.sc_id %></a></li>
+            <% } %>
+        </ul>
+        <a href="/home">Back to home.</a>
+    </body>
+</html>
